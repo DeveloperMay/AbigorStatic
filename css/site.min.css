@@ -1,3 +1,72 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box; }
+
+body {
+  line-height: 1;
+  font-family: monospace;
+  background-color: #eaeaea;
+  font-size: 14px; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+p {
+  line-height: 1.5em; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/********************** CUSTOM DO RESET ***********************/
+h1 {
+  font-weight: 600;
+  padding: 10px 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box; }
+
 .width-5 {
   width: 5%; }
 
@@ -58,6 +127,126 @@
 .width-100 {
   width: 100%; }
 
+.font-1 {
+  font-size: 0.5rem; }
+
+.font-2 {
+  font-size: 1rem; }
+
+.font-3 {
+  font-size: 1.5rem; }
+
+.font-4 {
+  font-size: 2rem; }
+
+.font-5 {
+  font-size: 2.5rem; }
+
+.font-6 {
+  font-size: 3rem; }
+
+.font-7 {
+  font-size: 3.5rem; }
+
+.font-8 {
+  font-size: 4rem; }
+
+.font-9 {
+  font-size: 4.5rem; }
+
+.font-10 {
+  font-size: 5rem; }
+
+.font-11 {
+  font-size: 5.5rem; }
+
+.font-12 {
+  font-size: 6rem; }
+
+.font-13 {
+  font-size: 6.5rem; }
+
+.font-14 {
+  font-size: 7rem; }
+
+.font-15 {
+  font-size: 7.5rem; }
+
+.font-16 {
+  font-size: 8rem; }
+
+.font-17 {
+  font-size: 8.5rem; }
+
+.font-18 {
+  font-size: 9rem; }
+
+.font-19 {
+  font-size: 9.5rem; }
+
+.font-20 {
+  font-size: 10rem; }
+
+.font-21 {
+  font-size: 10.5rem; }
+
+.font-22 {
+  font-size: 11rem; }
+
+.font-23 {
+  font-size: 11.5rem; }
+
+.font-24 {
+  font-size: 12rem; }
+
+.font-25 {
+  font-size: 12.5rem; }
+
+.font-26 {
+  font-size: 13rem; }
+
+.font-27 {
+  font-size: 13.5rem; }
+
+.font-28 {
+  font-size: 14rem; }
+
+.font-29 {
+  font-size: 14.5rem; }
+
+.font-30 {
+  font-size: 15rem; }
+
+.font-31 {
+  font-size: 15.5rem; }
+
+.font-32 {
+  font-size: 16rem; }
+
+.font-33 {
+  font-size: 16.5rem; }
+
+.font-34 {
+  font-size: 17rem; }
+
+.font-35 {
+  font-size: 17.5rem; }
+
+.font-36 {
+  font-size: 18rem; }
+
+.font-37 {
+  font-size: 18.5rem; }
+
+.font-38 {
+  font-size: 19rem; }
+
+.font-39 {
+  font-size: 19.5rem; }
+
+.font-40 {
+  font-size: 20rem; }
+
 ::-moz-selection {
   background: #cccccc; }
 
@@ -66,6 +255,15 @@
 
 .inline-block {
   display: inline-block; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
 
 .hidden {
   margin-top: -9999px !important;
@@ -95,5 +293,53 @@
   top: 0;
   z-index: 99;
   background-color: #f15025; }
+
+table {
+  width: 100%; }
+  table thead {
+    background-color: #b7b7b7; }
+    table thead tr th {
+      padding: 10px;
+      font-weight: 600;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box; }
+  table tbody tr {
+    background-color: #e6e6e6; }
+    table tbody tr:hover {
+      background-color: #f3f3f3; }
+    table tbody tr td {
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box; }
+
+.comp-acao {
+  position: relative;
+  display: block;
+  width: 70px;
+  background-color: #e6e6e6; }
+  .comp-acao button {
+    width: 100%; }
+  .comp-acao:hover ul {
+    display: block;
+    -webkit-box-shadow: 0 0 10px -1.8px #4e4e4e;
+    -moz-box-shadow: 0 0 10px -1.8px #4e4e4e;
+    box-shadow: 0 0 10px -1.8px #4e4e4e; }
+  .comp-acao ul {
+    position: absolute;
+    z-index: 2;
+    display: none;
+    width: 70px; }
+    .comp-acao ul li > button {
+      width: 100%; }
+
+button {
+  color: blue; }
 
 /*# sourceMappingURL=map/site.min.css.map */
