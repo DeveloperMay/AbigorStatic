@@ -52,7 +52,7 @@ define('LANGS', array(
 ** @see demais dados em Model/Bancodados/Pssw
 **/
 
-define('BANCO_DADOS', 'pgsql');
+define('BANCO_DADOS', 'mysql');
 
 define('ACTION', 'maydana_system');
 

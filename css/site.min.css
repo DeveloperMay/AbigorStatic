@@ -33,6 +33,17 @@ button {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box; }
 
+form h2 {
+  padding: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box; }
+
+input {
+  outline: none; }
+
 body {
   line-height: 1;
   font-family: monospace;
@@ -247,6 +258,126 @@ h1 {
 .font-40 {
   font-size: 20rem; }
 
+.st-space-1 {
+  height: 0.5rem; }
+
+.st-space-2 {
+  height: 1rem; }
+
+.st-space-3 {
+  height: 1.5rem; }
+
+.st-space-4 {
+  height: 2rem; }
+
+.st-space-5 {
+  height: 2.5rem; }
+
+.st-space-6 {
+  height: 3rem; }
+
+.st-space-7 {
+  height: 3.5rem; }
+
+.st-space-8 {
+  height: 4rem; }
+
+.st-space-9 {
+  height: 4.5rem; }
+
+.st-space-10 {
+  height: 5rem; }
+
+.st-space-11 {
+  height: 5.5rem; }
+
+.st-space-12 {
+  height: 6rem; }
+
+.st-space-13 {
+  height: 6.5rem; }
+
+.st-space-14 {
+  height: 7rem; }
+
+.st-space-15 {
+  height: 7.5rem; }
+
+.st-space-16 {
+  height: 8rem; }
+
+.st-space-17 {
+  height: 8.5rem; }
+
+.st-space-18 {
+  height: 9rem; }
+
+.st-space-19 {
+  height: 9.5rem; }
+
+.st-space-20 {
+  height: 10rem; }
+
+.st-space-21 {
+  height: 10.5rem; }
+
+.st-space-22 {
+  height: 11rem; }
+
+.st-space-23 {
+  height: 11.5rem; }
+
+.st-space-24 {
+  height: 12rem; }
+
+.st-space-25 {
+  height: 12.5rem; }
+
+.st-space-26 {
+  height: 13rem; }
+
+.st-space-27 {
+  height: 13.5rem; }
+
+.st-space-28 {
+  height: 14rem; }
+
+.st-space-29 {
+  height: 14.5rem; }
+
+.st-space-30 {
+  height: 15rem; }
+
+.st-space-31 {
+  height: 15.5rem; }
+
+.st-space-32 {
+  height: 16rem; }
+
+.st-space-33 {
+  height: 16.5rem; }
+
+.st-space-34 {
+  height: 17rem; }
+
+.st-space-35 {
+  height: 17.5rem; }
+
+.st-space-36 {
+  height: 18rem; }
+
+.st-space-37 {
+  height: 18.5rem; }
+
+.st-space-38 {
+  height: 19rem; }
+
+.st-space-39 {
+  height: 19.5rem; }
+
+.st-space-40 {
+  height: 20rem; }
+
 ::-moz-selection {
   background: #cccccc; }
 
@@ -274,6 +405,9 @@ h1 {
   position: absolute !important;
   opacity: 0 !important;
   overflow: auto; }
+
+h2 {
+  font-size: 18px; }
 
 [data-anima] {
   transition: .3s; }
@@ -338,6 +472,50 @@ table {
     width: 70px; }
     .comp-acao ul li > button {
       width: 100%; }
+
+.input-text, .input-select {
+  display: block;
+  position: relative;
+  padding: 10px;
+  height: 80px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box; }
+  .input-text label, .input-select label {
+    display: block;
+    width: calc(100% - 20px);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: 400; }
+  .input-text input, .input-select input, .input-text select, .input-select select {
+    display: block;
+    position: absolute;
+    top: 30px;
+    height: 40px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px; }
+    .input-text input:focus, .input-select input:focus, .input-text select:focus, .input-select select:focus {
+      -webkit-box-shadow: 0 0 10px 0 #b7b7b7;
+      -moz-box-shadow: 0 0 10px 0 #b7b7b7;
+      box-shadow: 0 0 10px 0 #b7b7b7; }
+    .input-text input:focus + label, .input-select input:focus + label, .input-text select:focus + label, .input-select select:focus + label {
+      color: #f15025; }
 
 button {
   color: blue; }
